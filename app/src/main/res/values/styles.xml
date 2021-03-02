@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="headerStyle">
+        <item name="android:text">@string/headerText</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="procentagetip">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/lightOrange</item>
+        <item name="colorAccent">@color/lightOrange</item>
+    </style>
+
+    <style name="tip_percentage">
+        <item name="android:text">@string/tip_percentage</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="tip">
+        <item name="android:text">@string/tabname</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="total">
+        <item name="android:text">@string/tot</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="VardasPavarde">
+        <item name="android:text">Dominykas Doviakovskis ZP20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+</resources>

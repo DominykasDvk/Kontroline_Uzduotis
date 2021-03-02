@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:background="@color/bg">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/headerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_below="@id/header"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/monopoly"
+        android:src="@drawable/monopoly" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/Logo"
+        android:layout_margin="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/lightOrange"
+        android:gravity="center"
+        android:hint="@string/enterHint"
+        android:inputType="numberDecimal"
+        android:maxLength="8"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/inputText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:theme="@style/AppTheme"/>
+
+    <TextView
+        android:id="@+id/procentai"
+        android:layout_width="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText"
+        style="@style/tip_percentage"/>
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_below="@id/seekbar"
+        android:layout_margin="20dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/lightOrange"/>
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tips"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lightOrange" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@color/lightOrange"
+        android:hint="Result"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_below="@id/total"
+        android:layout_margin="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tiptext"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/procentai"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        style="@style/tip"
+        />
+
+    <TextView
+        style="@style/total"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tiptext"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/Result"
+        style="@style/VardasPavarde"/>
+
+
+</RelativeLayout>

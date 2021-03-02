@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Doviakovskis_PercentCounter</string>
+    <string name="headerText">Percent Counter</string>
+    <string name="monopoly">Monopoly</string>
+    <string name="tip_percentage">0%</string>
+    <string name="enterHint">Enter Amount</string>
+    <string name="tabname">Tip</string>
+    <string name="tot">Total</string>
+</resources>
